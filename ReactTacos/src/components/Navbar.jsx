@@ -12,7 +12,7 @@ export const Navbar = () => {
       <nav className="navbar navbar-expand-lg" style={{ color: 'black', backgroundColor: '#c75b0e' }}>
           <div className="container-fluid">
               <a className="navbar-brand" href="#">
-                <div><img src="./public/images/Logo French Tacos.png" className="img-fluid rounded" style={{ width: '50%', height: 'auto' }} /></div>
+                <Link to="/" ><img src="./public/images/Logo French Tacos.png" className="img-fluid rounded" style={{ width: '50%', height: 'auto' }} /></Link>
               </a>
 
               <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,7 +34,7 @@ export const Navbar = () => {
                     <Link to="Cart" className="nav-link">Panier</Link>
                   </li>
                 </ul>
-                
+
               </div>
           </div>
       </nav>

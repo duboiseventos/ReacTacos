@@ -1,5 +1,6 @@
 import './App.css';
 import { Navbar } from './components/Navbar.jsx';
+import { Footer } from './components/footer.jsx';
 import { Home } from './components/home/Home.jsx';
 import { Cart } from './components/cart/Cart.jsx';
 import { Contact } from './components/contact/Contact.jsx';
@@ -22,6 +23,7 @@ function App() {
             <Route path='/Cart' element={<Cart />} />
           </Routes>
         </div>
+        <Footer />
       </div>
     </Router>
   );

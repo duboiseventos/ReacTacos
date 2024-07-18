@@ -1,1 +1,7 @@
+/* Import des fonts */
+@font-face {
+    font-family: 'Lobster';
+    src: url('./assets/fontsFamily/Lobster-Regular.ttf') format('truetype');
+}
+
 

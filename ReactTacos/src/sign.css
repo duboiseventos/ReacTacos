@@ -1,0 +1,27 @@
+/* Import des fonts */
+@font-face {
+    font-family: 'Lobster';
+    src: url('./assets/fontsFamily/Lobster-Regular.ttf') format('truetype');
+}
+
+div {
+    font-family: Lobster;
+}
+
+.loginTitle {
+    font-size: 50px;
+}
+
+
+
+
+
+.buttonLogin {
+
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: x-large;
+    background-color: #c75b0e;
+}
+
+
