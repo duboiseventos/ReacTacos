@@ -1,3 +1,9 @@
+/* imports img
+*/
+
+
+import Hamburger from './public/images/hamburger.jpeg';
+
 
 /* menu des hamburgers
    carousel bootstrap
@@ -13,7 +19,7 @@ const Carousel = () => {
       </div>
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <img src="./public/images/hamburger.jpeg" className="d-block w-100" alt="hamburger"/>
+          <img src={Hamburger} className="d-block w-100" alt="hamburger"/>
           <div className="carousel-caption d-none d-md-block">
             <h5>Hamburger</h5>
             <p>Le Puriste : Simplement Savoureux</p>
