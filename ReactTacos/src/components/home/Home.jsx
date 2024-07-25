@@ -8,7 +8,7 @@ import { MenuHamburger } from './main/CarouselMenuHamburger.jsx';
 export const Home = () => {
     return (
         
-            <div>
+            <div className="HomeBody">
                 
                 <div className="">
                     <HeaderMain />

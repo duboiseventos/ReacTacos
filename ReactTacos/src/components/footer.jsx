@@ -90,7 +90,7 @@ export const Footer = () => {
       
       {/* Section du copyright */}  
       <div className="text-center p-3" style={{ color: '#c75b0e', backgroundColor: 'black' }}>  
-        &copy; 2020 Copyright: <a href="https://mdbootstrap.com/" className="text-white">MDBootstrap.com</a>  
+        &copy; 2024 Copyright: <a href="https://mdbootstrap.com/" className="text-white">FrenchyTacos.fr</a>  
       </div>  
     </footer>  
   );  

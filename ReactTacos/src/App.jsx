@@ -6,26 +6,29 @@ import { Cart } from './components/cart/Cart.jsx';
 import { Contact } from './components/contact/Contact.jsx';
 import { Menu } from './components/menu/Menu.jsx';
 import { SignIn } from './components/signIn/sign.jsx';
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <Router>
-      <div className="App">
-        <Navbar />
-        <div className="contenu">  
-          <Routes>
-            <Route path='/' element={<Home />} />
-            <Route path='/Menu' element={<Menu />} />
-            <Route path='/Contact' element={<Contact />} />
-            <Route path='/SignIn' element={<SignIn />} />
-            <Route path='/Cart' element={<Cart />} />
-          </Routes>
+      <Router>
+        <div className="App">
+          <Navbar />
+          <div className="contenu">  
+            <Routes>
+              <Route path='/' element={<Home />} />
+              <Route path='/Menu' element={<Menu />} />
+              <Route path='/Contact' element={<Contact />} />
+              <Route path='/SignIn' element={<SignIn />} />
+              <Route path='/Cart' element={<Cart />} />
+            </Routes>
+          </div>
+          <Footer />
         </div>
-        <Footer />
-      </div>
-    </Router>
+        <SpeedInsights />
+      </Router>
   );
 }
 

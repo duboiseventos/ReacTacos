@@ -4,4 +4,7 @@
     src: url('./assets/fontsFamily/Lobster-Regular.ttf') format('truetype');
 }
 
+.HomeBody {
+    background-color: grey;
+}
 
