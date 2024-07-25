@@ -2,7 +2,7 @@
 */
 
 
-import Hamburger from './public/images/hamburger.jpeg';
+import Hamburger from '/public/images/hamburger.jpeg';
 
 
 /* menu des hamburgers

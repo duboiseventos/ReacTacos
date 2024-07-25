@@ -3,7 +3,7 @@
 */
 
 import { Link } from 'react-router-dom';
-import logo from './public/images/Logo French Tacos.png';
+import logo from '/public/images/Logo French Tacos.png';
 
 
 
