@@ -9,7 +9,7 @@ const socialIcons = {
 // Section pour afficher les icônes des réseaux sociaux  
 const SocialMediaSection = ({ socialIcons, socialLinks }) => {  
   return (  
-    <section className="" style={{ color: '#c75b0e', backgroundColor: 'black' }}>  
+    <section className="" style={{ color: 'black', backgroundColor: '#c75b0e' }}>  
       <div className="container me-5">  
         <div>Rejoignez nous sur les réseaux !</div>  
         <div className="d-flex justify-content-center">  
@@ -76,12 +76,12 @@ export const Footer = () => {
       title: 'Column 2',  
       content: 'Content for Column 2',  
       links: ['Link 3', 'Link 4'],  
-      contactInfo: [{ icon: 'envelope', text: 'example@example.com' }]  
+      contactInfo: [{ icon: 'envelope', text: 'FrenchyTacos@gmail.com' }]  
     }  
   ];  
 
   return (  
-    <footer className="" style={{ color: '#c75b0e', backgroundColor: 'black' }}>  
+    <footer className="" style={{ color: 'black', backgroundColor: '#c75b0e' }}>  
       {/* Section des réseaux sociaux, modifiable en ajustant les valeurs de socialIcons et socialLinks*/}  
       <SocialMediaSection socialIcons={socialIcons} socialLinks={socialLinks} />  
       
@@ -89,7 +89,7 @@ export const Footer = () => {
       <LinksSection gridColumns={gridColumns} />  
       
       {/* Section du copyright */}  
-      <div className="text-center p-3" style={{ color: '#c75b0e', backgroundColor: 'black' }}>  
+      <div className="text-center p-3" style={{ color: 'black', backgroundColor: '#c75b0e' }}>  
         &copy; 2024 Copyright: <a href="https://mdbootstrap.com/" className="text-white">FrenchyTacos.fr</a>  
       </div>  
     </footer>  

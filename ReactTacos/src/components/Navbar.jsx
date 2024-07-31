@@ -14,7 +14,7 @@ export const Navbar = () => {
       <nav className="navbar navbar-expand-lg" style={{ color: 'black', backgroundColor: '#c75b0e' }}>
           <div className="container-fluid">
               <a className="navbar-brand" href="#">
-                <Link to="/" ><img src={logo} className="img-fluid rounded" style={{ width: '50%', height: 'auto' }} /></Link>
+                <Link to="/" ><img src={logo} className="img-fluid rounded" style={{ width: '70%', height: 'auto' }} /></Link>
               </a>
 
               <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

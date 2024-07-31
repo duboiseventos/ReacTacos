@@ -19,7 +19,7 @@
 }
 
 .nav-link {
-    font-size: 2rem;
+    font-size: 1.5rem!important;
 }
 
 .btnLog {
@@ -35,7 +35,25 @@
 /* Home */
 /* ************************** */
 
-/*=== Main ===*/
+/*=== HeaderMain ===*/
+.TitleMain{
+    padding: 1rem;
+    font-size: 5rem;
+}
+
+.TextMain {
+    padding: 0.7rem;
+    font-size: 1.5rem;
+}
+
+#slogan {
+    padding: 1rem;
+    font-size: 2rem!important;
+}
+
+#buttonHomeCommand {
+    margin-left: 12rem;
+}
 
 /* CarouselMenuHamburger */
 /* ************************** */
@@ -50,6 +68,11 @@
 
 
 /* MenuTacosSpe */
+.card{
+    background-color: #c75b0e !important;
+}
+
+
 /* ************************** */
 
 

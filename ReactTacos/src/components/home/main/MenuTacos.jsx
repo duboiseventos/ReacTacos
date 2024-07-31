@@ -1,4 +1,12 @@
 /*
+* imports img
+*/
+
+import Tacos from '/public/images/tacos.png';
+
+
+
+/*
 * Menu des Tacos classiques
 */
 
@@ -31,9 +39,9 @@ ItemsMenu.propTypes = {
 export const MenuTacos =() => {
     return (
         <div className="row">
-            <ItemsMenu ImgSource="./public/images/img-tacos-normal.png" Title="Tacos M" Price={8} />
-            <ItemsMenu ImgSource="./public/images/img-tacos-normal.png" Title="Tacos L" Price={9} />
-            <ItemsMenu ImgSource="./public/images/img-tacos-normal.png" Title="Tacos XL" Price={10} />
+            <ItemsMenu ImgSource={Tacos} Title="Tacos M" Price={8} />
+            <ItemsMenu ImgSource={Tacos} Title="Tacos L" Price={9} />
+            <ItemsMenu ImgSource={Tacos} Title="Tacos XL" Price={10} />
 
         </div>
 
